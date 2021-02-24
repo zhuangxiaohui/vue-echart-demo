@@ -1,0 +1,43 @@
+{
+  "name": "vue-echart-demo",
+  "version": "1.0.0",
+  "description": "Echart demo",
+  "author": "Hugh zhuang <277100963@qq.com>",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "start": "npm run serve",
+    "dev": "npm run serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint --fix"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.0.0-rc.2",
+    "echarts": "^5.0.2",
+    "vue": "^2.6.12",
+    "vue-demi": "^0.6.0",
+    "vue-echarts": "^6.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-eslint": "^4.5.11",
+    "@vue/cli-plugin-router": "^4.5.11",
+    "@vue/cli-plugin-unit-jest": "^4.5.11",
+    "@vue/cli-plugin-vuex": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "@vue/eslint-config-standard": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "compression-webpack-plugin": "^6.1.1",
+    "eslint": "^7.20.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-vue": "^7.6.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1",
+    "text-loader": "^0.0.1",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.46.0",
+    "webpack-bundle-analyzer": "^4.4.0"
+  }
+}
